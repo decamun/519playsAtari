@@ -26,7 +26,8 @@ source env/bin/activate
 
 deactivate
 
-###OpenAI Gym
+### OpenAI Gym
+* Make sure you have virtualenv activated.
 * In order to install OG from pip run:
 
 pip install gym
@@ -36,3 +37,6 @@ pip install gym
 git clone https://github.com/openai/gym
 cd gym
 pip install -e . # minimal install
+
+### Tensorflow
+* Follow [instructions](https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html#virtualenv-installation) for installing Tensorflow in VirtualENV
